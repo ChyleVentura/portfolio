@@ -35,8 +35,8 @@ const Skills = () => {
             return(
                 <div key={skill.id}id="skill_content" className='content_panel text-center max-w-[1240px] mx-auto m-20'>
                     <div className='justify-center flex flex-col'>
-                        <p className='text-[100px] text-bold tracking-tighter leading-[1em]'>{skill.title}</p>
-                        <img src={skill.img} alt="" className='w-[400px] m-5 mx-auto'/>
+                        <p className='md:text-[100px] text-bold tracking-tighter text-5xl leading-[1em]'>{skill.title}</p>
+                        <img src={skill.img} alt="" className='md:w-[300px] w-[200px] m-5 mx-auto'/>
                     </div>                    
                     <p className='text-bold text-3xl text-violet-500 m-5'>
                         {skill.apps.map((app, index) => {
