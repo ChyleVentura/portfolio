@@ -9,7 +9,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md';
 gsap.registerPlugin(ScrollTrigger)
 
 const Skills = () => {
-    useEffect(() => {
+    useGSAP(() => {
         const sections = Array.from(document.querySelectorAll('.content_panel'));
         sections.forEach((section, i) => {
           gsap.timeline({
@@ -24,7 +24,7 @@ const Skills = () => {
             opacity: 1
           });
         });
-      }, []);
+      });
   return (
     <div id="skills"className='w-full text-white py-16 px-4 items-center overflow-hidden'>
         <div className=' text-violet-500 flex items-center mb-10 pl-10'>
