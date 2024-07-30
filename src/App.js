@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills";
+import Works from "./Components/Works";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Works />
       <Banner />
       <Footer />
     </div>

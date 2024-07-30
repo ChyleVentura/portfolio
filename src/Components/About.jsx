@@ -32,7 +32,7 @@ const About = () => {
         </div> 
         <div id="about_content_1" className='content_panel max-w-[1240px] mx-auto m-20'>
             <div className='justify-center flex flex-col'>
-                <p className='md:text-7xl text-5xl text-center text-bold tracking-tighter leading-[1em]'>
+                <p className='md:text-7xl text-5xl text-center text-bold tracking-tighter'>
                   Hello! I'm Chyle Ventura, I'm a front-end developer and video editor. 
                   I'm currently looking for an awesome collaboration!</p>
             </div>
