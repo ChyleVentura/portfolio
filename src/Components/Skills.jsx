@@ -12,7 +12,7 @@ const Skills = () => {
     useGSAP(() => {
         const sections = Array.from(document.querySelectorAll('.content_panel'));
         sections.forEach((section, i) => {
-          gsap.timeline({
+         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: section,
                 toggleActions: "restart none none reverse",
@@ -22,7 +22,7 @@ const Skills = () => {
           .to(section, {
             x: 0,
             opacity: 1
-          });
+          })
         });
       });
   return (
@@ -36,15 +36,16 @@ const Skills = () => {
                 <div key={skill.id}id="skill_content" className='content_panel text-center max-w-[1240px] mx-auto m-20'>
                     <div className='justify-center flex flex-col'>
                         <p className='md:text-[100px] text-bold tracking-tighter text-5xl leading-[1em]'>{skill.title}</p>
-                        <img src={skill.img} alt="" className='md:w-[300px] w-[200px] m-5 mx-auto'/>
+                        {/* <img src={skill.img} alt="" className='md:w-[300px] w-[200px] m-5 mx-auto'/> */}
                     </div>                    
-                    <p className='text-bold text-3xl text-violet-500 m-5'>
+                    <div className='skill_content_list text-bold text-2xl text-white-500 m-5 flex flex-col md:flex-row justify-center'>
                         {skill.apps.map((app, index) => {
                              return(
-                                skill.apps.length - index == 1? app.name : app.name+", "
+                                <p key={index} className='m-3 bg-slate-800 items-center flex justify-between p-5 gap-2 rounded-md'>{app.name}{app.img}</p>
+                                // skill.apps.length - index == 1? app.name : app.name+", "
                              )}
                         )}
-                        </p>
+                        </div>
                 </div>
             )
         })}
