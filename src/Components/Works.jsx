@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { ReactTyped } from 'react-typed';
 
 const Works = () => {
   return (
@@ -11,8 +12,7 @@ const Works = () => {
         <div id="works_content_1" className='content_panel max-w-[1240px] mx-auto m-20'>
             <div className='justify-center flex flex-col'>
                 <p className='md:text-7xl text-5xl text-center text-bold tracking-tighter'>
-                  Hello! I'm Chyle Ventura, I'm a front-end developer and video editor. 
-                  I'm currently looking for an awesome collaboration!</p>
+                  <ReactTyped typeSpeed={40} loop strings={['dropping soon..']}/></p>
             </div>
         </div>
     </div>
