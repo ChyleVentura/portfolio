@@ -2,7 +2,7 @@ import {React, useState, useEffect} from 'react';
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import {skillsContent} from '../data/data'
-import { MdOutlineArrowOutward } from 'react-icons/md';
+import { MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -42,7 +42,7 @@ const Skills = () => {
     <div id="skills"className='w-full text-white py-16 px-4 items-center overflow-hidden'>
         <div className=' text-violet-500 flex items-center mb-10 pl-10'>
           <h1 className='text-bold text-3xl'>skills</h1>
-          <MdOutlineArrowOutward size={30}/>
+          <MdOutlineSubdirectoryArrowRight size={30} className='ml-2'/>
         </div> 
         {skillsContent.map( skill =>{
             return(

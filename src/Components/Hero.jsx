@@ -1,6 +1,4 @@
 import React from 'react'
-import { gsap } from 'gsap'
-import { useGSAP } from '@gsap/react'
 
 const Hero = () => {
   return (
@@ -9,7 +7,8 @@ const Hero = () => {
             <p className='text-bold text-2xl text-violet-500'>Chyle Ventura</p>
             <h1 className='lg:text-[160px] md:text-[120px] text-wrap text-5xl
             tracking-tighter text-bold leading-[.75em]'>
-              FRONT-END DEVELOPER <br/> VIDEO EDITOR</h1>
+              FRONT-END DEVELOPER
+              VIDEO<br />EDITOR</h1>
         </div>
     </div>
   )

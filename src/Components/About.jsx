@@ -3,7 +3,7 @@ import VideoEditing from '../assets/film-production.png'
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
-import { MdOutlineArrowOutward } from "react-icons/md";
+import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -28,7 +28,7 @@ const About = () => {
     <div id="about"className='w-full text-white bg-white h-screen px-4 items-center overflow-hidden'>
         <div id="about_title" className=' text-black flex items-center m-10'>
           <h1  className='text-bold text-3xl'>about</h1>
-          <MdOutlineArrowOutward size={30}/>
+          <MdOutlineSubdirectoryArrowRight size={30} className='ml-2'/>
         </div> 
         <div id="about_content_1" className='content_panel max-w-[1240px] mx-auto m-20'>
             <div className='justify-center flex flex-col'>
