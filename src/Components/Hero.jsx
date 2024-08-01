@@ -3,9 +3,6 @@ import { gsap } from 'gsap'
 import { useGSAP } from '@gsap/react'
 
 const Hero = () => {
-    useGSAP( () =>{
-        gsap.to("#hero-title",{translateY:0,opacity:1,})
-    } ,[])
   return (
     <div className='text-white z-0 lg:px-40 px-5'>
         <div id="hero-title"className='flex-col flex max-w-[1000] h-screen w-full justify-center items-start mx-auto py-[10rem]'>
