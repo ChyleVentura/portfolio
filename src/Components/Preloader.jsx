@@ -19,7 +19,7 @@ const Preloader = () => {
             ease:"power3.inOut"
         })
         .to('.loader', 0.5,{
-            bottom:"-100%",
+            translateY:"-100%",
             delay:1,
             ease: "power3.inOut",
         })
