@@ -4,8 +4,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
+.dark{
+  --background: 17, 17, 17;
+  --text-primary: 250, 249, 246;
+  --text-secondary: 255, 67, 1;
+  --card: 47, 37, 25;
+  --accent: 47, 37, 25;
+}
+
+.light{
+  --background: 250, 249, 246;
+  --text-primary: 1, 1, 1;
+  --text-secondary: 255, 67, 1;
+  --card: 47, 37, 25;
+  --accent: 250, 125, 9;
+}
+
 body{
-  background: #191919;
+  background: rgba(var(--background));
   font-family:"Archivo Black"
 }
 

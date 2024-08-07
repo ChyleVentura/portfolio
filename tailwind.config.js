@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "rgba(var(--background))",
+        "primary": "rgba(var(--text-primary))",
+        "secondary": "rgba(var(--text-secondary))",
+        card: "rgba(var(--card))",
+        accent: "rgba(var(--accent))",
+      },
+    },
   },
   plugins: [],
 }

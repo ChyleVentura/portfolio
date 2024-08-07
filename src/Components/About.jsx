@@ -25,18 +25,20 @@ const About = () => {
         });
       }, []);
   return (
-    <div id="about"className='w-full text-white bg-white h-screen px-4 items-center overflow-hidden'>
-        <div id="about_title" className=' text-black flex items-center m-10'>
-          <h1  className='text-bold text-3xl'>about</h1>
-          <MdOutlineSubdirectoryArrowRight size={30} className='ml-2'/>
-        </div> 
-        <div id="about_content_1" className='content_panel max-w-[1240px] mx-auto m-20'>
-            <div className='justify-center flex flex-col'>
-                <p className='md:text-7xl text-5xl text-center text-black text-bold tracking-tighter'>
-                  Hello! I'm Chyle Ventura, I'm a front-end developer and video editor. 
-                  I'm currently looking for an awesome collaboration!</p>
-            </div>
-        </div>
+    <div className='about-wrapper flex w-full bg-secondary h-screen items-center overflow-hidden'>
+      <div id="about"className='text-white max-w-[1240px] w-full m-auto px-4'>
+          <div id="about_title" className=' text-primary flex items-center'>
+            <h1  className='text-bold text-3xl'>about</h1>
+            <MdOutlineSubdirectoryArrowRight size={30} className='ml-2'/>
+          </div> 
+          <div id="about_content_1" className='content_panel max-w-[1240px] mx-auto m-20'>
+              <div className='justify-center flex flex-col'>
+                  <p className='md:text-7xl text-5xl text-center text-black text-bold tracking-tighter'>
+                    Hello! I'm Chyle Ventura, I'm a front-end developer and video editor. 
+                    I'm currently looking for an awesome collaboration!</p>
+              </div>
+          </div>
+      </div>
     </div>
   )
 }
