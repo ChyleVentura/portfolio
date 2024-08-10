@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3aa53147.css",
-    "main.js": "/portfolio/static/js/main.795b9436.js",
+    "main.css": "/portfolio/static/css/main.2fa216c6.css",
+    "main.js": "/portfolio/static/js/main.75bd2ee2.js",
+    "static/media/work2.png": "/portfolio/static/media/work2.664571bae7f502658fe9.png",
+    "static/media/work1.png": "/portfolio/static/media/work1.3fca80a732482778073e.png",
+    "static/media/work5.jpg": "/portfolio/static/media/work5.54f5288c0f9727c2e850.jpg",
+    "static/media/work3.jpg": "/portfolio/static/media/work3.978e24b0cc2e0d1e057c.jpg",
+    "static/media/work4.webp": "/portfolio/static/media/work4.65796b6fdcc02ce44189.webp",
     "static/media/layers.png": "/portfolio/static/media/layers.3bbf83263883311358e8.png",
     "static/media/film-production.png": "/portfolio/static/media/film-production.8d660406968eaec9c9fe.png",
     "static/media/web-design.png": "/portfolio/static/media/web-design.f721d6300da36dde4a81.png",
     "static/media/designer.png": "/portfolio/static/media/designer.1f9bfe89fe9becc2219a.png",
     "index.html": "/portfolio/index.html",
-    "main.3aa53147.css.map": "/portfolio/static/css/main.3aa53147.css.map",
-    "main.795b9436.js.map": "/portfolio/static/js/main.795b9436.js.map"
+    "main.2fa216c6.css.map": "/portfolio/static/css/main.2fa216c6.css.map",
+    "main.75bd2ee2.js.map": "/portfolio/static/js/main.75bd2ee2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa53147.css",
-    "static/js/main.795b9436.js"
+    "static/css/main.2fa216c6.css",
+    "static/js/main.75bd2ee2.js"
   ]
 }
