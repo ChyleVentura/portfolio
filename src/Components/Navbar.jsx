@@ -44,7 +44,7 @@ const Navbar = () => {
     <header className='text-white'>
         <nav className='nav-bar'>
             <div className='nav-bar-horiz justify-between fixed z-10 w-full bg-opacity-50 backdrop-blur-xl border-b-[1px] border-b-zinc-500'>
-              <div className='justify-between px-4 items-center h-24 mx-auto flex max-w-[1240px]'>  
+              <div className='justify-between px-4 items-center h-14 mx-auto flex max-w-[1240px]'>  
                 <h1 className='text-3xl font-bold w-full'>CHYLE</h1>
                 <ul className='hidden md:flex'>
                     <li className='p-5 cursor-pointer'>About</li>

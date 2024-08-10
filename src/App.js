@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
       <Works />
+      <Skills />
       <Banner />
       <Footer />
     </div>

@@ -11,7 +11,7 @@ const Circle = () => {
     <>
     <div className="circle_wrapper fixed justify-center w-full items-center flex h-screen -z-40 overflow-hidden">
              
-        <div id="circle" className=" bg-secondary/50 w-[400px] h-[400px] rounded-[50%]">
+        <div id="circle" className=" bg-secondary/50 w-[600px] h-[600px] rounded-[50%] blur-[300px]">
         </div>      
     </div>
     <div id="target"className=''></div>
